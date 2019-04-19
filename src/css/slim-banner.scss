@@ -1,0 +1,22 @@
+.minium.slim-banner {
+	height: 216px;
+	width: 100%;
+	border-radius: 8px;
+	box-shadow: 0 26px 48px -35px #303140a6;
+
+	.fragments-editor__editable {
+		height: 100%;
+	}
+
+	.editable-image {
+		height: 100%;
+		width: 100%;
+	}
+
+	.slim-banner-background {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		object-position: top;
+	}
+}

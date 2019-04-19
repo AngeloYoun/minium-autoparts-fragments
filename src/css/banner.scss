@@ -1,0 +1,57 @@
+.minium.banner-left-aligned {
+	background-color: #FFF;
+	height: 336px;
+    background-size: contain;
+    background-position: right;
+	background-repeat: no-repeat;
+	padding: 0;
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 0 26px 48px -35px #303140a6;
+	overflow: hidden;
+	z-index: 0;
+
+	.background-image {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		z-index: -1;
+	}
+
+	.content-type {
+		margin-bottom: 12px;
+	}
+
+	.content-title {
+		margin-bottom: 8px;
+	}
+
+	.background-image-editable {
+		height: 100%;
+		width: 100%;
+	}
+
+	.background {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.content-wrapper {
+		width: 40%;
+		padding: 64px 56px;
+	}
+
+	.content-type {
+		font-size: 14px;
+		color: #4886FF;
+		font-family: Roboto;
+	}
+
+	.subtitle-text {
+		color: $grey;
+		font-family: $font-family;
+		font-weight: 600;
+	}
+}

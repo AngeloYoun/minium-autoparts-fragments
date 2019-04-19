@@ -1,0 +1,42 @@
+.minium.document-download-callout-card {
+	height: 288px;
+	width: 100%;
+	background-color: #FFF;
+	border-radius: 8px;
+	box-shadow: 0 32px 23px -27px #303140a6;
+	padding: 72px 40px;
+	position: relative;
+
+	.document-type {
+		margin-bottom: 12px;
+	}
+
+	.document-name {
+		margin-bottom: 16px;
+	}
+
+	.download-icon {
+		background-color: $dark-blue;
+		height: 48px;
+		width: 48px;
+		position: absolute;
+		bottom: 32px;
+		right: 32px;
+		cursor: pointer;
+		border-radius: 100%;
+		transition: transform 0.2s ease-out, background-color 0.2s ease-out;
+
+		&:hover {
+			transform: scale(1.15);
+			background-color: darken($dark-blue, 2%)
+		}
+	}
+
+	.link-holder {
+		height: 48px;
+		width: 48px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,24 @@
+.minium.content-card {
+	background-color: #FFF;
+	height: 504px;
+	border-radius: 8px;
+	padding: 40px calc((100% - 600px) / 2);
+
+	.content-type {
+		margin-bottom: 11px;
+	}
+
+	.content-title {
+		margin-bottom: 40px;
+	}
+
+	.sub-heading {
+		margin-bottom: 8px;
+	}
+
+	.content {
+		font-size: 14px;
+		color: $dark-grey;
+		font-weight: 300;
+	}
+}

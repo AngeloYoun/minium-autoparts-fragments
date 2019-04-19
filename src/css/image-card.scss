@@ -1,0 +1,17 @@
+.minium.image-card {
+	height: 317px;
+	width: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 32px 23px -27px #303140a6;
+	margin-bottom: 32px;
+
+	.image-editable, .image-card-background {
+		height: 317px;
+		width: 100%;
+	}
+
+	.image-card-background {
+		object-fit: cover;
+	}
+}

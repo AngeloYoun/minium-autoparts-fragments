@@ -1,0 +1,40 @@
+.minium.document-download-card {
+	.minium-card-title {
+		margin-bottom: 48px;
+	}
+
+	.document-entry {
+		display: flex;
+		margin-bottom: 24px;
+	}
+
+	.document-icon-holder {
+		margin-right: 32px;
+	}
+
+	.document-name {
+		font-family: $font-family;
+		color: $dark-blue;
+		font-weight: 300;
+		font-size: 16px;
+		margin-right: auto;
+	}
+
+	.download-icon {
+		height: 32px;
+		width: 32px;
+	}
+
+	.link-editable {
+		height: 100%;
+		width: 100%;
+	}
+
+	.link-holder {
+		height: 32px;
+		width: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "name": "minium-autoparts-ui",
+  "description": "Liferay Fragments project",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "keywords": [
+    "liferay",
+    "liferay-fragments"
+  ],
+  "scripts": {
+    "add-collection": "yo liferay-fragments:collection",
+    "add-fragment": "yo liferay-fragments:fragment",
+    "compress": "yo liferay-fragments:compress",
+    "export": "yo liferay-fragments:export",
+    "build-css:watch": "node-sass -w src/css/main.scss src/styles.css",
+    "import": "yo liferay-fragments:import",
+    "import:watch": "yo liferay-fragments:import --watch"
+  },
+  "devDependencies": {
+    "generator-liferay-fragments": "^1.1.0",
+    "yo": "^2.0.5"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

@@ -1,0 +1,10 @@
+.minium.content-image-section {
+	display: flex;
+	height: 317px;
+	margin-bottom: 32px;
+
+	.image-card {
+		margin-right: 72px;
+    	width: calc(50% - 48px);
+	}
+}

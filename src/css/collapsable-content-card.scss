@@ -1,0 +1,72 @@
+.minium.collapsable-content-card {
+	background-color: #FFF;
+	border-radius: 8px;
+	padding: 64px 40px;
+	margin-bottom: 52px;
+
+	.content-group-title {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 16px 16px;
+		border-bottom: 1px solid #FFF;
+		transition: border-color 0.2s ease-out;
+	}
+
+	.content-group {
+		margin-bottom: 24px;
+
+		.collapsable-content {
+			font-size: 14px;
+			font-weight: 400;
+			color: $dark-grey;
+			font-family: $font-family;
+			border-left: 2px solid $dark-blue;
+			margin: 0 16px;
+			padding: 0 24px;
+			height: auto;
+			overflow: hidden;
+			max-height: 124px;
+			transition: max-height 0.3s ease-out;
+		}
+
+		&.collapsed {
+			.content-group-title {
+				border-color: $light-grey;
+			}
+
+			.collapsable-content {
+				max-height: 0;
+			}
+		}
+	}
+
+	.content-title {
+		color: $black;
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.collapse-button {
+		color: $dark-blue;
+		font-weight: 600;
+		font-size: 23px;
+		height: 32px;
+		width: 32px;
+		border: 0px;
+		line-height: 20px;
+		border-radius: 8px;
+		transition: background-color 0.2s ease-out;
+		padding-bottom: 4px;
+
+		&:active, &:focus {
+			box-shadow: none;
+			outline: none;
+			border: 0;
+		}
+
+		&:active, &:hover {
+			background-color: $off-white;
+		}
+	}
+}
